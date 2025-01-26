@@ -3,3 +3,4 @@
 
 # Current implementations:
 - Linked list (WIP)
+- Binary tree (Thanks to: https://github.com/iSaborit)
