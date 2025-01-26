@@ -1,7 +1,6 @@
-mod linked_list;
+use dsa::{binary_tree_test, list_test};
+
 fn main() {
-    let mut list = linked_list::Node::new(1);
-    list.add(2);
-    list.add(3);
-    list.print();
+    list_test();
+    binary_tree_test();
 }
