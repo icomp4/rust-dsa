@@ -3,10 +3,14 @@ mod binary_tree;
 use crate::binary_tree::TreeNode;
 
 pub fn list_test() {
-    let mut list = linked_list::Node::new(1);
+    let mut list = linked_list::LinkedList::new();
     list.add(2);
     list.add(3);
+    list.add_to_front(24);
+    list.add(10);
     list.print();
+    println!("List contains 4: {}", list.contains(4));
+    println!("List contains 2: {}", list.contains(2));
 }
 
 pub fn binary_tree_test() {
